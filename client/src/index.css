@@ -97,6 +97,20 @@ img {
   color: var(--accent-strong);
 }
 
+.nav-cta {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.nav-cta__label {
+  display: inline;
+}
+
+.nav-cta__icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -371,6 +385,17 @@ img {
     display: none;
   }
 
+  .nav-cta {
+    width: 2.9rem;
+    min-width: 2.9rem;
+    padding: 0;
+    gap: 0;
+  }
+
+  .nav-cta__label {
+    display: none;
+  }
+
   .hero-grid,
   .split-grid,
   .services-grid,
@@ -395,8 +420,8 @@ img {
   }
 
   .shell-row {
-    align-items: flex-start;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
   }
 
   .stats-grid,
