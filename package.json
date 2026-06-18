@@ -8,7 +8,8 @@
     "build": "vite build",
     "start": "vite preview --host",
     "preview": "vite preview --host",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "sitemap": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
     "react": "^19.2.1",
