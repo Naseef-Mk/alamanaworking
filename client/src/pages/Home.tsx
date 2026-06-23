@@ -77,9 +77,9 @@ export default function Home() {
           </div>
 
           <div className="nav-links">
-            <a href="#services">Services</a>
-            <a href="#process">Process</a>
-            <a href="#contact">Contact</a>
+            <a href="services">Services</a>
+            <a href="process">Process</a>
+            <a href="contact">Contact</a>
           </div>
 
           <a
@@ -131,7 +131,7 @@ export default function Home() {
                 >
                   WhatsApp us
                 </a>
-                <a href="#services" className="button button-outline">
+                <a href="services" className="button button-outline">
                   View services
                 </a>
               </div>
@@ -275,19 +275,19 @@ export default function Home() {
           <div>
             <h4>Services</h4>
             <ul className="footer-links">
-              <li><a href="#services">Website Designing</a></li>
-              <li><a href="#services">Web App Development</a></li>
-              <li><a href="#services">Custom Software</a></li>
-              <li><a href="#services">Mobile Apps</a></li>
+              <li><a href="services">Website Designing</a></li>
+              <li><a href="services">Web App Development</a></li>
+              <li><a href="services">Custom Software</a></li>
+              <li><a href="services">Mobile Apps</a></li>
             </ul>
           </div>
 
           <div>
             <h4>Company</h4>
             <ul className="footer-links">
-              <li><a href="#services">Services</a></li>
-              <li><a href="#process">Process</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="services">Services</a></li>
+              <li><a href="process">Process</a></li>
+              <li><a href="contact">Contact</a></li>
             </ul>
           </div>
 
